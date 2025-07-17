@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="user-profile">
+                <div class="user-avatar"></div>
+                <div class="user-info">
+                    <h4>Tumbu John</h4>
+                    <p>tumbu.john@longistu...</p>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item active">
+                    <div class="nav-icon"></div>
+                    Dashboard
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Customers
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Sales
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Subscriptions
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Expenses
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Contracts
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Projects
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Tasks
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Support
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Leads
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Estimate Request
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Knowledge Base
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Utilities
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Reports
+                </li>
+                <li class="nav-item">
+                    <div class="nav-icon"></div>
+                    Setup
+                </li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="header">
+                <div class="search-bar">
+                    <div class="nav-icon"></div>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="header-actions">
+                    <button class="header-btn">⚙️</button>
+                    <button class="header-btn">📤</button>
+                    <button class="header-btn">📧</button>
+                    <button class="header-btn">❓</button>
+                    <button class="header-btn">🔔</button>
+                </div>
+            </div>
+
+            <!-- Dashboard Cards -->
+            <div class="dashboard-cards">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">📄 Invoices Awaiting Payment</div>
+                        <div class="card-value">0 / 0</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🎯 Converted Leads</div>
+                        <div class="card-value">0 / 0</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">📊 Projects in Progress</div>
+                        <div class="card-value">1 / 1</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill blue" style="width: 100%"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">📝 Tasks Not Finished</div>
+                        <div class="card-value">1 / 1</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill gray" style="width: 100%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Overview Section -->
+            <div class="overview-section">
+                <div class="overview-card">
+                    <div class="overview-title">📄 Invoice overview</div>
+                    <div class="status-item">
+                        <span class="status-label">0 Draft</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">0 Not Sent</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label red">0 Unpaid</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label orange">0 Partially Paid</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label red">0 Overdue</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label green">0 Paid</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                </div>
+
+                <div class="overview-card">
+                    <div class="overview-title">📊 Estimate overview</div>
+                    <div class="status-item">
+                        <span class="status-label">0 Draft</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">0 Not Sent</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label blue">0 Sent</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label orange">0 Expired</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label red">0 Declined</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label green">0 Accepted</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                </div>
+
+                <div class="overview-card">
+                    <div class="overview-title">📋 Proposal overview</div>
+                    <div class="status-item">
+                        <span class="status-label">0 Draft</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label blue">0 Sent</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">0 Open</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label blue">0 Revised</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label red">0 Declined</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label green">0 Accepted</span>
+                        <span class="status-value">0%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Invoice Summary -->
+            <div class="invoice-summary">
+                <div class="invoice-card">
+                    <div class="invoice-title outstanding">Outstanding Invoices</div>
+                    <div class="invoice-amount">$0.00</div>
+                </div>
+                <div class="invoice-card">
+                    <div class="invoice-title past-due">Past Due Invoices</div>
+                    <div class="invoice-amount">$0.00</div>
+                </div>
+                <div class="invoice-card">
+                    <div class="invoice-title paid">Paid Invoices</div>
+                    <div class="invoice-amount">$0.00</div>
+                </div>
+            </div>
+
+            <!-- Bottom Navigation -->
+            <div class="bottom-nav">
+                <div class="nav-tab">
+                    <div class="nav-tab-icon"></div>
+                    My Tasks
+                </div>
+                <div class="nav-tab">
+                    <div class="nav-tab-icon"></div>
+                    My Projects
+                </div>
+                <div class="nav-tab">
+                    <div class="nav-tab-icon"></div>
+                    My Reminders
+                </div>
+                <div class="nav-tab">
+                    <div class="nav-tab-icon"></div>
+                    Tickets
+                </div>
+                <div class="nav-tab">
+                    <div class="nav-tab-icon"></div>
+                    Announcements
+                </div>
+                <div class="nav-tab">
+                    <div class="nav-tab-icon"></div>
+                    Latest Activity
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar Widgets -->
+        <div class="sidebar-widgets">
+            <div class="widget">
+                <div class="widget-title">📝 My To Do Items</div>
+                <div style="text-align: right; margin-bottom: 10px;">
+                    <a href="#" style="color: #2196f3; text-decoration: none; font-size: 12px;">View All</a>
+                    <a href="#" style="color: #2196f3; text-decoration: none; font-size: 12px; margin-left: 10px;">New To Do</a>
+                </div>
+                <div class="todo-item">
+                    <div class="todo-icon"></div>
+                    ⚠️ Latest to do's
+                </div>
+                <div class="todo-item">
+                    <div class="todo-icon green"></div>
+                    ✅ Latest finished to do's
+                </div>
+                <p style="font-size: 12px; color: #999; margin-top: 10px;">No todos found</p>
+                <p style="font-size: 12px; color: #999; margin-top: 5px;">No finished todos found</p>
+            </div>
+
+            <div class="widget">
+                <div class="widget-title">📊 Leads Overview</div>
+                <div class="chart-container">
+                    <div style="text-align: center; color: #999;">Chart Area</div>
+                </div>
+                <div class="chart-legend">
+                    <div class="legend-item">
+                        <div class="legend-color green"></div>
+                        <span>Customer</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color red"></div>
+                        <span>Lost Leads</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
