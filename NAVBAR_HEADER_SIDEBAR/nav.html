@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Layout</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav class="top-navbar">
+        <button class="menu-toggle">☰</button>
+        <div class="logo">V</div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <span class="search-icon">🔍</span>
+        </div>
+        <button class="add-btn">+</button>
+        <div class="nav-icons">
+            <button class="nav-icon">⚙️</button>
+            <button class="nav-icon">📤</button>
+            <button class="nav-icon">📧</button>
+            <button class="nav-icon">❓</button>
+            <button class="nav-icon">🔔</button>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="user-profile">
+            <div class="user-avatar">TJ</div>
+            <div class="user-info">
+                <h4>Tumbu John</h4>
+                <p>tumbu.john@longthi...</p>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        <span class="nav-icon-menu">📊</span>
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">👥</span>
+                        Customers
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">⚡</span>
+                        Sales
+                        <span class="nav-arrow">‹</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">📋</span>
+                        Subscriptions
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">💰</span>
+                        Expenses
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">📄</span>
+                        Contracts
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">📁</span>
+                        Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">✓</span>
+                        Tasks
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">🎧</span>
+                        Support
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">👤</span>
+                        Leads
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">📊</span>
+                        Estimate Request
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">📚</span>
+                        Knowledge Base
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">🔧</span>
+                        Utilities
+                        <span class="nav-arrow">‹</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">📊</span>
+                        Reports
+                        <span class="nav-arrow">‹</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon-menu">⚙️</span>
+                        Setup
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-header">
+            <div class="header-actions">
+                <button class="dashboard-options">
+                    ⚙️ Dashboard Options
+                </button>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-icon">📄</span>
+                        <span>0 / 0</span>
+                    </div>
+                    <div class="stat-title">Invoices Awaiting Payment</div>
+                    <div class="stat-value">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-icon">📈</span>
+                        <span>0 / 0</span>
+                    </div>
+                    <div class="stat-title">Converted Leads</div>
+                    <div class="stat-value">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-icon">📊</span>
+                        <span>1 / 1</span>
+                    </div>
+                    <div class="stat-title">Projects in Progress</div>
+                    <div class="stat-value">1</div>
+                    <div class="stat-progress">
+                        <div class="stat-progress-fill projects"></div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <span class="stat-icon">✓</span>
+                        <span>1 / 1</span>
+                    </div>
+                    <div class="stat-title">Tasks Not Finished</div>
+                    <div class="stat-value">1</div>
+                    <div class="stat-progress">
+                        <div class="stat-progress-fill tasks"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
